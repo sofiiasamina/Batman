@@ -5,9 +5,12 @@ body{
     background-color: #0A090A;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    background-image: url(../img/main-bg.png);
+    background-image: url(../img/main-bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
 }
 .container{
     max-width: 1140px;
@@ -257,6 +260,9 @@ body{
 }
 
 @media(max-width: 1200px){
+    .body{
+        background-size: auto;
+    }
     .container{
         max-width: 960px;
     }
