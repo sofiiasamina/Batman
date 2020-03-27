@@ -151,10 +151,7 @@ body{
     margin-left: 15px;
     transform: rotate(90deg);
 }
-.main{
-    margin-left: 6%;
-    margin-right: 6%
-}
+
 .content{
     display: flex;
     justify-content: space-between;
@@ -162,7 +159,6 @@ body{
     border-radius: 3px;
     color: #000000;
     padding: 3% 4%;
-    margin-bottom: 5%;
 }
 .short-info{
     margin-right: 3%;
@@ -204,6 +200,10 @@ body{
 }
 .tabs-content{
     margin-right: 70px;
+    display: none;
+}
+.visible{
+    display: block;
 }
 .tabs{
     display: flex;
@@ -244,7 +244,7 @@ body{
 .subscribe-input{
     background: rgba(196, 196, 196, 0.5);
     border-radius: 5px 0px 0px 5px;
-    padding: 12px 0 12px 18px;
+    padding: 12px 0 10px 14px;
     border: none;
     color: #AEAEAE;
     font-size: 14px;
@@ -258,9 +258,7 @@ body{
 }
 
 @media(max-width: 1200px){
-    .body{
-        background-size: auto;
-    }
+    
     .container{
         max-width: 960px;
     }
@@ -293,6 +291,9 @@ body{
     }
 }
 @media (max-width: 768px){
+    .body{
+        background-size: auto;
+    }
     .container{
         max-width: 540px;
     }
